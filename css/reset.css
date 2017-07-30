@@ -1,0 +1,23 @@
+
+body,h1,h2,h3,h4,h5{
+    margin: 0;
+}
+
+body{
+    overflow: hidden;
+}
+
+main, nav{
+    display: block;
+}
+
+ul{
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+}
+
+*{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}

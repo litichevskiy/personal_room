@@ -1,0 +1,30 @@
+@import './../fonts.css';
+
+.block_main_content{
+    background-color: rgb(241,241,247);
+    position: absolute;
+    top: 85px;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+}
+
+.main_block{
+    position: absolute;
+    overflow: auto;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    background: rgb(241,241,247);
+    -webkit-transition: 0.25s linear;
+    -o-transition: 0.25s linear;
+    transition: 0.25s linear;
+    padding: 15px;
+    font-family: PTSansRegular, sans-serif;
+}
+
+.container_main_block{
+    width: 100%;
+}

@@ -1,0 +1,17 @@
+
+@media(max-width:800px),screen and (max-device-width:768px) {
+
+    .nav_panel{
+        height: 60px;
+    }
+
+    .block_main_content{
+        top: 60px !important;
+    }
+
+    .user_mail,
+    .user_balance,
+    .content_header_info_panel{
+        display: none;
+    }
+}
