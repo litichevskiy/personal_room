@@ -11,6 +11,7 @@
             container: document.querySelector('.container_user_more_info'),
             classDropDownList: 'drop_down_list_info_panel'
         });
+
     });
 
 })();

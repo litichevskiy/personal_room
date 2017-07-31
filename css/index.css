@@ -3,9 +3,8 @@
     position: relative;
     width: 100%;
     height: 100vh;
-
-    width: 1370px;
-    margin: auto;
+    /*width: 1370px;
+    margin: auto;*/
 }
 
 @media(max-width: 1370px){
