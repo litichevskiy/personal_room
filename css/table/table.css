@@ -1,0 +1,103 @@
+
+@import './../fonts.css';
+
+.container_table{
+    width: 90%;
+    margin: auto;
+}
+
+.table{
+    width: 100%;
+    font-family: PTSansRegular, sans-serif;
+    border-collapse: collapse;
+}
+
+.table thead{
+    background-color: rgb(255, 255, 255);
+    font-size: 22px;
+}
+
+.table tbody{
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.table tbody tr{
+    text-align: center;
+}
+
+.table tr th{
+    padding: 6px 8px;
+}
+
+.table tbody td{
+    padding: 0;
+}
+
+.table th, td{
+    border-right: 1px solid rgb(183, 183, 183);
+    border-top: 1px solid rgb(183, 183, 183);
+}
+
+.table{
+    border-left: 1px solid rgb(183, 183, 183);
+    border-bottom: 1px solid rgb(183, 183, 183);
+}
+
+.table tbody tr:hover{
+    background-color: rgb(0,186,173);
+}
+
+.table .header{
+    width: 100%;
+    position: relative;
+    text-align: left;
+    padding-right: 50px;
+    color: rgb(173,176,182);
+}
+
+.container_input_search .input_search_in_table{
+    width: 100%;
+    color: rgb(68,68,68);
+    padding: 5px 7px;
+    font-size: 20px;
+    border: 1px solid rgb(226, 226, 228);
+    -webkit-border-radius: 5px;
+            border-radius: 5px;
+}
+
+.container_sort{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+[data-role="up"]{
+    display: none;
+}
+
+input[name="sort"]:checked ~ [data-role="down"]{
+    display: none;
+}
+
+input[name="sort"]:checked ~ [data-role="up"]{
+    display: inline-block;
+}
+
+.sort{
+    cursor: pointer;
+    color: rgb(0,186,173);
+}
+
+.container_pagination{
+    width: 100%;
+    overflow: auto;
+    margin-top: 15px;
+    text-align: right;
+}
+
+.container_pagination .simple-pagination{
+    display: inline-block;
+    padding: 0;
+}

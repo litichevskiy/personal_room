@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" type="text/css" href="css/nav_bar/nav_bar.css">
+        <link rel="stylesheet" type="text/css" href="css/main_block/main_block.css">
+        <link rel="stylesheet" type="text/css" href="css/info_panel/info_panel.css">
+        <link rel="stylesheet" type="text/css" href="css/nav_bar/nav_bar_for_small.device.css">
+        <link rel="stylesheet" type="text/css" href="css/info_panel/info_panel_for_small_device.css">
+        <!-- <link rel="stylesheet" type="text/css" href="css/add_balance/add_balance.css"> -->
+        <link rel="stylesheet" type="text/css" href="css/table/table.css">
+        <link rel="stylesheet" type="text/css" href="css/lib/pagination.css">
+
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.js"></script>
+        <script type="text/javascript" src="js/lib/simplePagination.js"></script>
+    </head>
+    <body>
+        <div class="main_container">
+            <input type="checkbox" id="open_close_info_panel" />
+            <nav class="nav_panel">
+                <div class="container_block_user_info">
+                    <div class="block_user_info">
+                        <img src="img/nav_bar/user_small_icon.png" class="user_icon" >
+                        <span class="user_mail">user@yahoo.com</span>
+                        <span class="user_balance">0.000</span>
+                        <ul class="container_user_more_info">
+                            <li>
+                                <div>
+                                    <span class="user_more_info">
+                                        Point(s)
+                                    </span>
+                                    <span class="wraper_vertical_baseline">
+                                        <i class="fa fa-sort-desc icon_open_close_user_more_info" aria-hidden="true"></i>
+                                    </span>
+                                </div>
+                                <ul class="drop_down_list_info_panel">
+                                    <li class="item_drop_down_list_info_panel">one</li>
+                                    <li class="item_drop_down_list_info_panel">two</li>
+                                    <li class="item_drop_down_list_info_panel">three</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="block_info_panel">
+                <div class="header_info_panel">
+                    <h4 class="content_header_info_panel">Automagram Panel</h4>
+                    <div class="wraper_vertical_center">
+                        <label for="open_close_info_panel" class="open_close_info_panel" >
+                            <i class="fa fa-bars button_open_close_info_panel" aria-hidden="true"></i>
+                        </label>
+                    </div>
+                </div>
+                <nav class="container_info_panel">
+                    <ul class="list_info_panel">
+                        <li class="item_list_info_panel">
+                            <div class="block_content_list_info_panel">
+                                <span class="container_icon_info_panel">
+                                    <i class="fa fa-shopping-cart icon_drop_down_list_info_panel" aria-hidden="true"></i>
+                                </span>
+                                <div class="content_info_panel">Add Balance</div>
+                            </div>
+                        </li>
+                        <li class="item_list_info_panel">
+                            <div class="block_content_list_info_panel">
+                                <span class="container_icon_info_panel">
+                                    <i class="fa fa-cog icon_drop_down_list_info_panel" aria-hidden="true"></i>
+                                </span>
+                                    <div class="content_info_panel">Config</div>
+                                <span class="container_icon_info_panel">
+                                    <i class="fa fa-angle-right pointer_open_close_drop_down_list_info_panel" aria-hidden="true"></i>
+                                </span>
+                            </div>
+                            <ul class="drop_down_list_info_panel">
+                                <li class="item_drop_down_list_info_panel">Payment History</li>
+                                <li class="item_drop_down_list_info_panel">Change Password</li>
+                                <li class="item_drop_down_list_info_panel">API & Example</li>
+                            </ul>
+                        </li>
+                        <li class="item_list_info_panel">
+                            <div class="block_content_list_info_panel">
+                                <span class="container_icon_info_panel">
+                                    <i class="fa fa-bullhorn icon_drop_down_list_info_panel" aria-hidden="true"></i>
+                                </span>
+                                <div class="content_info_panel">Announcement</div>
+                            </div>
+                        </li>
+                        <li class="item_list_info_panel">
+                            <div class="block_content_list_info_panel">
+                                <span class="container_icon_info_panel">
+                                    <i class="fa fa-th icon_drop_down_list_info_panel" aria-hidden="true"></i>
+                                </span>
+                                <div class="content_info_panel">Orders</div>
+                            </div>
+                        </li>
+                        <li class="item_list_info_panel">
+                            <div class="block_content_list_info_panel">
+                                <span class="container_icon_info_panel">
+                                     <i class="fa fa-video-camera icon_drop_down_list_info_panel" aria-hidden="true"></i>
+                                </span>
+                                <div class="content_info_panel">Add View</div>
+                            </div>
+                        </li>
+                        <li class="item_list_info_panel">
+                            <div class="block_content_list_info_panel">
+                                <span class="container_icon_info_panel">
+                                    <i class="fa fa-camera icon_drop_down_list_info_panel" aria-hidden="true"></i>
+                                </span>
+                                <div class="content_info_panel">Auto Add View</div>
+                            </div>
+                        </li>
+                        <li class="item_list_info_panel">
+                            <div class="block_content_list_info_panel">
+                                <span class="container_icon_info_panel">
+                                    <i class="fa fa-users icon_drop_down_list_info_panel" aria-hidden="true"></i>
+                                </span>
+                                <div class="content_info_panel">Add Followers</div>
+                            </div>
+                        </li><li class="item_list_info_panel">
+                            <div class="block_content_list_info_panel">
+                                <span class="container_icon_info_panel">
+                                    <i class="fa fa-heart icon_drop_down_list_info_panel" aria-hidden="true"></i>
+                                </span>
+                                <div class="content_info_panel">Add Like</div>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="block_main_content">
+                <main class="main_block">
+                    <div class="container_main_block">
+                        <div class="container_table">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            <div class="header">
+                                                <span>Id</span>
+                                                <span class="container_sort">
+                                                    <label>
+                                                        <input type="checkbox" name="sort" class="hidden" />
+                                                        <span class="sort" data-column="0" data-role="up">&#x25B2;</span>
+                                                        <span class="sort" data-column="0" data-role="down">&#x25BC;</span>
+                                                    </label>
+                                                </span>
+                                            </div>
+                                            <div class="container_input_search">
+                                                <input class="input_search_in_table" type="text" placeholder="search" />
+                                            </div>
+                                        </th>
+                                        <th>
+                                            <div class="header">
+                                                <span>Subject</span>
+                                                <span class="container_sort">
+                                                   <label>
+                                                       <input type="checkbox" name="sort" class="hidden" />
+                                                       <span class="sort" data-column="1" data-role="up">&#x25B2;</span>
+                                                       <span class="sort" data-column="1" data-role="down">&#x25BC;</span>
+                                                   </label>
+                                                </span>
+                                            </div>
+                                            <div class="container_input_search">
+                                                <input class="input_search_in_table" type="text" placeholder="search" />
+                                            </div>
+                                        </th>
+                                        <th>
+                                            <div class="header">
+                                                <span>Price</span>
+                                                <span class="container_sort">
+                                                   <label>
+                                                       <input type="checkbox" name="sort" class="hidden" />
+                                                       <span class="sort" data-column="2" data-role="up">&#x25B2;</span>
+                                                       <span class="sort" data-column="2" data-role="down">&#x25BC;</span>
+                                                   </label>
+                                                </span>
+                                            </div>
+                                            <div class="container_input_search">
+                                                <input class="input_search_in_table" type="text" placeholder="search" />
+                                            </div>
+                                        </th>
+                                        <th>
+                                            <div class="header">
+                                                <span>Type</span>
+                                                <span class="container_sort">
+                                                   <label>
+                                                       <input type="checkbox" name="sort" class="hidden" />
+                                                       <span class="sort" data-column="3" data-role="up">&#x25B2;</span>
+                                                       <span class="sort" data-column="3" data-role="down">&#x25BC;</span>
+                                                   </label>
+                                                </span>
+                                            </div>
+                                            <div class="container_input_search">
+                                                <input class="input_search_in_table" type="text" placeholder="search" />
+                                            </div>
+                                        </th>
+                                        <th>
+                                           <div class="header">
+                                               <span>Status</span>
+                                               <span class="container_sort">
+                                                   <label>
+                                                       <input type="checkbox" name="sort" class="hidden" />
+                                                       <span class="sort" data-column="4" data-role="up">&#x25B2;</span>
+                                                       <span class="sort" data-column="4" data-role="down">&#x25BC;</span>
+                                                   </label>
+                                               </span>
+                                           </div>
+                                           <div class="container_input_search">
+                                               <input class="input_search_in_table" type="text" placeholder="search" />
+                                           </div>
+                                        </th>
+                                        <th>
+                                           <div class="header">
+                                               <span>Initial</span>
+                                               <span class="container_sort">
+                                                   <label>
+                                                       <input type="checkbox" name="sort" class="hidden" />
+                                                       <span class="sort" data-column="5" data-role="up">&#x25B2;</span>
+                                                       <span class="sort" data-column="5" data-role="down">&#x25BC;</span>
+                                                   </label>
+                                               </span>
+                                           </div>
+                                           <div class="container_input_search">
+                                               <input class="input_search_in_table" type="text" placeholder="search" />
+                                           </div>
+                                        </th>
+                                        <th>
+                                           <div class="header">
+                                               <span>Current</span>
+                                               <span class="container_sort">
+                                                   <label>
+                                                       <input type="checkbox" name="sort" class="hidden" />
+                                                       <span class="sort" data-column="6" data-role="up">&#x25B2;</span>
+                                                       <span class="sort" data-column="6" data-role="down">&#x25BC;</span>
+                                                   </label>
+                                               </span>
+                                           </div>
+                                           <div class="container_input_search">
+                                               <input class="input_search_in_table" type="text" placeholder="search" />
+                                           </div>
+                                        </th>
+                                        <th>
+                                           <div class="header">
+                                               <span>Remainded</span>
+                                               <span class="container_sort">
+                                                   <label>
+                                                       <input type="checkbox" name="sort" class="hidden" />
+                                                       <span class="sort" data-column="7" data-role="up">&#x25B2;</span>
+                                                       <span class="sort" data-column="7" data-role="down">&#x25BC;</span>
+                                                   </label>
+                                               </span>
+                                           </div>
+                                           <div class="container_input_search">
+                                               <input class="input_search_in_table" type="text" placeholder="search" />
+                                           </div>
+                                        </th>
+                                        <th>
+                                           <div class="header">
+                                               <span>Start</span>
+                                               <span class="container_sort">
+                                                   <label>
+                                                       <input type="checkbox" name="sort" class="hidden" />
+                                                       <span class="sort" data-column="8" data-role="up">&#x25B2;</span>
+                                                       <span class="sort" data-column="8" data-role="down">&#x25BC;</span>
+                                                   </label>
+                                               </span>
+                                           </div>
+                                           <div class="container_input_search">
+                                               <input class="input_search_in_table" type="text" placeholder="search" />
+                                           </div>
+                                        </th>
+                                        <th>
+                                           <div class="header">
+                                               <span>End</span>
+                                               <span class="container_sort">
+                                                   <label>
+                                                       <input type="checkbox" name="sort" class="hidden" />
+                                                       <span class="sort" data-column="9" data-role="up">&#x25B2;</span>
+                                                       <span class="sort" data-column="9" data-role="down">&#x25BC;</span>
+                                                   </label>
+                                               </span>
+                                           </div>
+                                           <div class="container_input_search">
+                                               <input class="input_search_in_table" type="text" placeholder="search" />
+                                           </div>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                </tbody>
+                            </table>
+                            <div class="container_pagination">
+                                <div class="pagination"></div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+        <script type="text/javascript" src="js/OpenCloseDropDownList/OpenCloseDropDownList.js"></script>
+        <script type="text/javascript" src="js/serverAPI.js"></script>
+        <script type="text/javascript" src="js/createTable/createTable.js"></script>
+        <script type="text/javascript" src="js/table/table.js"></script>
+        <script type="text/javascript" src="js/init.js"></script>
+    </body>
+</html>
+<!-- id, Subject,Price, Status, Initial,Current,Remainded,Start,End -->

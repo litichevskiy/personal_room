@@ -11,6 +11,10 @@ main, nav{
     display: block;
 }
 
+input{
+    outline: none;
+}
+
 ul{
     margin: 0;
     list-style-type: none;

@@ -70,7 +70,6 @@ body{
 }
 
 .input{
-    outline: none;
     display: inline-block;
     font-size: 20px;
     color: rgb(118,118,118);
